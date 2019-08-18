@@ -1,17 +1,6 @@
-/*
-*=================================
-* Hugo UILite Portfolio v0.8
-*=================================
-*
-* Free version https://uicard.io/products/hugo-uilite
-* Pro version https://uicard.io/products/hugo-uilite-pro
-* Demo https://demo.uicard.io/hugo-uilite-portfolio-demo/
-*
-* Coded By UICardio
-*
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*
-*/
+
+
+console.log('%c ', 'font-size:900px; background:url(https://3.bp.blogspot.com/-ttLNivEtn9A/WsY6hbAg_tI/AAAAAAAAAUg/EGFp-vbx7pYfj4x968XnGYJptggNHMntgCLcBGAs/s640/identify_phishing.png) no-repeat;');
 
 
 let menuBtn = $("#menuBar");
@@ -49,7 +38,7 @@ function scrollTo(target) {
 $(document).ready(function() {
   var elements = $(".sidebar > .main-info *");
 
-  console.log(elements);
+  /*console.log(elements);*/
 
   for (let i = 0; i < elements.length; i++) {
     setTimeout(function() {
